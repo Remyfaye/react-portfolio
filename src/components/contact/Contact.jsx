@@ -27,13 +27,15 @@ const Contact = () => {
         </article>
 
 
-        <form>
+        {/* <form>
           <input type='text' name='name' placeholder='your name' required/>
           <input type='email' name='email' placeholder='your email'/>
           <textarea name='message' rows='7' placeholder='your message'></textarea>
-          <a href='mailto:igbokwefc1@gmail.com' className='btn btn-primary'>send a message</a>
-          {/* <button type='submit' className='btn btn-primary'>send message</button> */}
-        </form>
+          
+          <button type='submit' >
+            <a href='mailto:igbokwefc1@gmail.com' className='btn btn-primary'>send a message</a>
+          </button>
+        </form> */}
       </div>
     </div>
   </section>
