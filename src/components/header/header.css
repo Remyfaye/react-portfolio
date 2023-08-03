@@ -129,13 +129,19 @@ header{
 }
 
 @media screen and (max-width: 400px)  {
+    header{
+        height: 100vh;
+        padding-top: 1rem;
+       
+        overflow-x: hidden;
+    }
     
       .me{
         background: var(--color-primary);
-        /* width: 85%; */
+        /* width: 80%; */
         left: calc(50% - 11rem);
         /* margin-top: 4rem; */
-        height: 22em;
+        height: 20rem;
         place-items: center; 
 
         overflow: hidden;
