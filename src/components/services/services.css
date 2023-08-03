@@ -67,6 +67,11 @@
         /* width: 90%; */
         grid-template-columns: 1fr;
       }
+      .service:hover{
+        background: transparent;
+        border-color: var(--color-primary-variant);
+        cursor: default;
+    }
       /* .service{
         background:green;
         width:70%;

@@ -130,7 +130,7 @@ header{
 
 @media screen and (max-width: 400px)  {
     header{
-        height: 100vh;
+        height: 85vh;
         padding-top: 1rem;
         /* background: red; */
         
