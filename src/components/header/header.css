@@ -1,0 +1,135 @@
+
+
+header{
+    height: 100vh;
+    padding-top: 2rem;
+   
+    overflow-x: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    /* position: relative; */
+}
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 0.8rem;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ===================image============= */
+.me{
+    background: var(--color-primary);
+    width: 22rem;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    height: 25rem;
+    overflow: hidden;
+    place-items: center;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    border-radius: 12rem 12rem 0 0;
+}
+.me_img{
+    width: 90%;
+}
+
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+
+}
+
+
+/* =======================media query for tablet============ */
+@media screen and (max-width: 1024px)  {
+  header{
+    height: 100vh;
+  }
+  
+}
+
+
+/* =======================media query for phone============ */
+@media screen and (max-width: 600px)  {
+    header{
+        height: 100vh;
+      }
+      .header_socials, .scroll_down{
+        display: none;
+      }
+      .me{
+        background: var(--color-primary);
+        /* width: 17rem; */
+        left: calc(50% - 11rem);
+        /* margin-top: 4rem; */
+        height: 30rem;
+        place-items: center; 
+
+        overflow: hidden;
+        place-items: center;
+        /* object-fit: cover; */
+        object-position: center; 
+        position: absolute;
+        /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+        border-radius: 12rem 12rem 0 0;
+    }
+    .header_me-image{
+        border-radius: 2rem;
+        place-items: center;
+        /* position: absolute;
+        left: calc(50% - 5rem); */
+        place-items: center; 
+        margin-top: 5rem;
+        height: 27rem;
+        /* width: 90%; */
+        display: flex;
+        justify-content: center;
+        /* width: fit-content; */
+        background: 
+            var(--color-primary)
+        ;
+    }
+    .header_img{
+        border-radius: 2rem;
+        background: red;
+
+        height: 110%;
+        width: 90%;
+        /* width: 40rem; */
+        transform: rotate(10deg);
+        transition: var(--transition);
+    }
+}
+
+
+
+
+
+
