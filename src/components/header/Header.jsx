@@ -10,13 +10,13 @@ const Header = () => {
   return (
     <header>
       <div className='container header_container'>
-        <h5>hello, i'm</h5>
+        <h4>hello, i'm</h4>
         <h1>Fay</h1>
         <h5 className='text-light'>Fullstack developer</h5>
         <CTA/> 
         <Socials/>
 
-        {/*<div className='me'>*/}
+        {/* <div className='img-wrapper'> */}
         <img alt='me' src={ME} className='me'/>
         
         {/* </div> */}

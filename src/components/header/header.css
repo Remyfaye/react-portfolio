@@ -132,26 +132,29 @@ header{
     header{
         height: 100vh;
         padding-top: 1rem;
-       
+        /* background: red; */
+        
         overflow-x: hidden;
     }
     
-      .me{
+    .me{
         background: var(--color-primary);
-        /* width: 80%; */
-        left: calc(50% - 11rem);
-        /* margin-top: 4rem; */
-        height: 20rem;
-        place-items: center; 
+        width: 80%;
+        left: 10%;
+        margin-top: 4rem;
+        /* margin-left: calc(50% - 11rem); */
+        height: 19rem;
 
-        overflow: hidden;
-        place-items: center;
-        /* object-fit: cover; */
-        object-position: center; 
         position: absolute;
         /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-        border-radius: 12rem ;
+        border-radius: 50% ;
     }
+    .img-wrapper{
+        
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
     
     
 }
