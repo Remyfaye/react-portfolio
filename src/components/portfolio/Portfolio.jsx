@@ -11,6 +11,23 @@ const Portfolio = () => {
       <h2>My Portfolio</h2>
 
       <div className='container portfolio_container'>
+     
+      <div className='portfolio_frontend'>
+          
+
+          <img alt='' 
+          className='portfolio_img'
+          src=' https://www.qed42.com/sites/default/files/styles/social_media/public/2022-02/Best%20Practices%20For%20eCommerce%20Website%20Design.png?itok=UiGZ73XD
+          '
+          />
+          <h3>Mobile E-commerce Website</h3>
+
+          <div className='portfolio_content'>
+      <a href='https://ashbox.vercel.app/' className='btn btn-primary'>live demo</a>
+
+          </div>
+
+        </div>
 
         <div className='portfolio_frontend'>
           
